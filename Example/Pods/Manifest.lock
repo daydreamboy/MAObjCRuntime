@@ -1,0 +1,16 @@
+PODS:
+  - WCObjCRuntime (0.1.0)
+
+DEPENDENCIES:
+  - WCObjCRuntime (from `../`)
+
+EXTERNAL SOURCES:
+  WCObjCRuntime:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WCObjCRuntime: 5cae00c0477cc9a9beeebe3adcb73a6bb324f426
+
+PODFILE CHECKSUM: 512cdf8d9644f2f4e2266422b2f8402e6daa2f0d
+
+COCOAPODS: 1.1.1

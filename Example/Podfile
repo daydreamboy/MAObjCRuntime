@@ -1,11 +1,5 @@
-use_frameworks!
+#use_frameworks!
 
-target 'WCObjCRuntime_Example' do
+target 'Example_iOS' do
   pod 'WCObjCRuntime', :path => '../'
-
-  target 'WCObjCRuntime_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

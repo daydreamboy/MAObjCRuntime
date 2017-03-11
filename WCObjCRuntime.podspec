@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/daydreamboy/WCObjCRuntime'
+  s.homepage         = 'https://github.com/wesley chen/WCObjCRuntime'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'daydreamboy' => 'wesley4chen@gmail.com' }
-  s.source           = { :git => 'https://github.com/daydreamboy/WCObjCRuntime.git', :tag => s.version.to_s }
+  s.author           = { 'wesley chen' => 'wesley chen@gmail.com' }
+  s.source           = { :git => 'https://github.com/wesley chen/WCObjCRuntime.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'WCObjCRuntime/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'WCObjCRuntime' => ['WCObjCRuntime/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.9'
+  s.requires_arc = false
+  s.source_files = 'Pod/Classes/**/*'
 end

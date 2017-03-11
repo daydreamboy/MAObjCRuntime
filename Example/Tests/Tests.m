@@ -2,8 +2,8 @@
 //  WCObjCRuntimeTests.m
 //  WCObjCRuntimeTests
 //
-//  Created by daydreamboy on 03/11/2017.
-//  Copyright (c) 2017 daydreamboy. All rights reserved.
+//  Created by wesley chen on 03/11/2017.
+//  Copyright (c) 2017 wesley chen. All rights reserved.
 //
 
 @import XCTest;

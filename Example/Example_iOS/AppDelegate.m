@@ -1,14 +1,14 @@
 //
-//  WCRTAppDelegate.m
+//  AppDelegate.m
 //  WCObjCRuntime
 //
-//  Created by daydreamboy on 03/11/2017.
-//  Copyright (c) 2017 daydreamboy. All rights reserved.
+//  Created by wesley chen on 03/11/2017.
+//  Copyright (c) 2017 wesley chen. All rights reserved.
 //
 
-#import "WCRTAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation WCRTAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

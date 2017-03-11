@@ -1,18 +1,18 @@
 //
-//  WCRTViewController.m
+//  ViewController.m
 //  WCObjCRuntime
 //
-//  Created by daydreamboy on 03/11/2017.
-//  Copyright (c) 2017 daydreamboy. All rights reserved.
+//  Created by wesley chen on 03/11/2017.
+//  Copyright (c) 2017 wesley chen. All rights reserved.
 //
 
-#import "WCRTViewController.h"
+#import "ViewController.h"
 
-@interface WCRTViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation WCRTViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {

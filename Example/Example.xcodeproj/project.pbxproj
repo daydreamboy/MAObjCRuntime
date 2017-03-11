@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA23BB61E73D9FE000DBE48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA23BB51E73D9FE000DBE48 /* main.m */; };
+		2BA23BC91E73DA32000DBE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA23BBB1E73DA32000DBE48 /* LaunchScreen.storyboard */; };
+		2BA23BCA1E73DA32000DBE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA23BBD1E73DA32000DBE48 /* Main.storyboard */; };
+		2BA23BCB1E73DA32000DBE48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA23BBF1E73DA32000DBE48 /* InfoPlist.strings */; };
+		2BA23BCC1E73DA32000DBE48 /* Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BA23BC11E73DA32000DBE48 /* Example-Info.plist */; };
+		2BA23BCD1E73DA32000DBE48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA23BC31E73DA32000DBE48 /* Images.xcassets */; };
+		2BA23BCE1E73DA32000DBE48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA23BC41E73DA32000DBE48 /* main.m */; };
+		2BA23BCF1E73DA32000DBE48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA23BC61E73DA32000DBE48 /* AppDelegate.m */; };
+		2BA23BD01E73DA32000DBE48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA23BC81E73DA32000DBE48 /* ViewController.m */; };
+		372A81DC24AE292EFEDDDFB8 /* libPods-Example_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A377F7E735DF6EDF6A85E1 /* libPods-Example_iOS.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* WCRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WCRTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* WCRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WCRTViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E8F9DA9BE6B1D65035A62E5F /* Pods_WCObjCRuntime_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13DBB93996AB86EDB3FC551 /* Pods_WCObjCRuntime_Tests.framework */; };
-		F3A4B91BBAA7F5B6584D64E8 /* Pods_WCObjCRuntime_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F24032C2C039772F666CF7 /* Pods_WCObjCRuntime_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,40 +37,60 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2BA23BB11E73D9FE000DBE48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0979ED1CC3F0B19894E9EFB3 /* Pods-WCObjCRuntime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCObjCRuntime_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCObjCRuntime_Example/Pods-WCObjCRuntime_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* WCObjCRuntime_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCObjCRuntime_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA23BB31E73D9FE000DBE48 /* Example_MacOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example_MacOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA23BB51E73D9FE000DBE48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA23BBC1E73DA32000DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BA23BBE1E73DA32000DBE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA23BC01E73DA32000DBE48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA23BC11E73DA32000DBE48 /* Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		2BA23BC21E73DA32000DBE48 /* Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		2BA23BC31E73DA32000DBE48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BA23BC41E73DA32000DBE48 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA23BC51E73DA32000DBE48 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BA23BC61E73DA32000DBE48 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BA23BC71E73DA32000DBE48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BA23BC81E73DA32000DBE48 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* Example_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* WCObjCRuntime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WCObjCRuntime-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* WCObjCRuntime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCObjCRuntime-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* WCRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCRTAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* WCRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCRTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* WCRTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCRTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* WCRTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCRTViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* WCObjCRuntime_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCObjCRuntime_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* Example_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Example_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		70B08FE44C995DA3FCF59492 /* WCObjCRuntime.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WCObjCRuntime.podspec; path = ../WCObjCRuntime.podspec; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A13DBB93996AB86EDB3FC551 /* Pods_WCObjCRuntime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCObjCRuntime_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F18871C66BC6B2B95AC4C6 /* Pods-Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example_iOS/Pods-Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		68A377F7E735DF6EDF6A85E1 /* libPods-Example_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B08FE44C995DA3FCF59492 /* WCObjCRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = WCObjCRuntime.podspec; path = ../WCObjCRuntime.podspec; sourceTree = "<group>"; };
+		A26EB64FAF2CB4AB58EA94C2 /* Pods-Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example_iOS/Pods-Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A4871AFBF3332E7A34405C81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B4F24032C2C039772F666CF7 /* Pods_WCObjCRuntime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCObjCRuntime_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA0684F1D9E7286DCDC2F351 /* Pods-WCObjCRuntime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCObjCRuntime_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCObjCRuntime_Tests/Pods-WCObjCRuntime_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEF8361243267FE02575D3D9 /* Pods-WCObjCRuntime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCObjCRuntime_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCObjCRuntime_Example/Pods-WCObjCRuntime_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F45E917DF46B453A262D219E /* Pods-WCObjCRuntime_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCObjCRuntime_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCObjCRuntime_Tests/Pods-WCObjCRuntime_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC077552AC06D0553A816A75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2BA23BB01E73D9FE000DBE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,7 +98,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				F3A4B91BBAA7F5B6584D64E8 /* Pods_WCObjCRuntime_Example.framework in Frameworks */,
+				372A81DC24AE292EFEDDDFB8 /* libPods-Example_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,18 +109,44 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E8F9DA9BE6B1D65035A62E5F /* Pods_WCObjCRuntime_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA23BB41E73D9FE000DBE48 /* Example_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BA23BB51E73D9FE000DBE48 /* main.m */,
+			);
+			path = Example_MacOS;
+			sourceTree = "<group>";
+		};
+		2BA23BBA1E73DA32000DBE48 /* Example_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BA23BBB1E73DA32000DBE48 /* LaunchScreen.storyboard */,
+				2BA23BBD1E73DA32000DBE48 /* Main.storyboard */,
+				2BA23BBF1E73DA32000DBE48 /* InfoPlist.strings */,
+				2BA23BC11E73DA32000DBE48 /* Example-Info.plist */,
+				2BA23BC21E73DA32000DBE48 /* Example-Prefix.pch */,
+				2BA23BC31E73DA32000DBE48 /* Images.xcassets */,
+				2BA23BC41E73DA32000DBE48 /* main.m */,
+				2BA23BC51E73DA32000DBE48 /* AppDelegate.h */,
+				2BA23BC61E73DA32000DBE48 /* AppDelegate.m */,
+				2BA23BC71E73DA32000DBE48 /* ViewController.h */,
+				2BA23BC81E73DA32000DBE48 /* ViewController.m */,
+			);
+			path = Example_iOS;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for WCObjCRuntime */,
+				2BA23BBA1E73DA32000DBE48 /* Example_iOS */,
+				2BA23BB41E73D9FE000DBE48 /* Example_MacOS */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -110,8 +157,9 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* WCObjCRuntime_Example.app */,
-				6003F5AE195388D20070C39A /* WCObjCRuntime_Tests.xctest */,
+				6003F58A195388D20070C39A /* Example_iOS.app */,
+				6003F5AE195388D20070C39A /* Example_Tests.xctest */,
+				2BA23BB31E73D9FE000DBE48 /* Example_MacOS */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,37 +171,9 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B4F24032C2C039772F666CF7 /* Pods_WCObjCRuntime_Example.framework */,
-				A13DBB93996AB86EDB3FC551 /* Pods_WCObjCRuntime_Tests.framework */,
+				68A377F7E735DF6EDF6A85E1 /* libPods-Example_iOS.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6003F593195388D20070C39A /* Example for WCObjCRuntime */ = {
-			isa = PBXGroup;
-			children = (
-				6003F59C195388D20070C39A /* WCRTAppDelegate.h */,
-				6003F59D195388D20070C39A /* WCRTAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* WCRTViewController.h */,
-				6003F5A6195388D20070C39A /* WCRTViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-			);
-			name = "Example for WCObjCRuntime";
-			path = WCObjCRuntime;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* WCObjCRuntime-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* WCObjCRuntime-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -190,8 +210,8 @@
 			children = (
 				EEF8361243267FE02575D3D9 /* Pods-WCObjCRuntime_Example.debug.xcconfig */,
 				0979ED1CC3F0B19894E9EFB3 /* Pods-WCObjCRuntime_Example.release.xcconfig */,
-				F45E917DF46B453A262D219E /* Pods-WCObjCRuntime_Tests.debug.xcconfig */,
-				CA0684F1D9E7286DCDC2F351 /* Pods-WCObjCRuntime_Tests.release.xcconfig */,
+				66F18871C66BC6B2B95AC4C6 /* Pods-Example_iOS.debug.xcconfig */,
+				A26EB64FAF2CB4AB58EA94C2 /* Pods-Example_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -199,9 +219,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* WCObjCRuntime_Example */ = {
+		2BA23BB21E73D9FE000DBE48 /* Example_MacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "WCObjCRuntime_Example" */;
+			buildConfigurationList = 2BA23BB71E73D9FE000DBE48 /* Build configuration list for PBXNativeTarget "Example_MacOS" */;
+			buildPhases = (
+				2BA23BAF1E73D9FE000DBE48 /* Sources */,
+				2BA23BB01E73D9FE000DBE48 /* Frameworks */,
+				2BA23BB11E73D9FE000DBE48 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example_MacOS;
+			productName = Example_MacOS;
+			productReference = 2BA23BB31E73D9FE000DBE48 /* Example_MacOS */;
+			productType = "com.apple.product-type.tool";
+		};
+		6003F589195388D20070C39A /* Example_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Example_iOS" */;
 			buildPhases = (
 				97A2E3C36B3326F320A3E009 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -214,30 +251,27 @@
 			);
 			dependencies = (
 			);
-			name = WCObjCRuntime_Example;
+			name = Example_iOS;
 			productName = WCObjCRuntime;
-			productReference = 6003F58A195388D20070C39A /* WCObjCRuntime_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* Example_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* WCObjCRuntime_Tests */ = {
+		6003F5AD195388D20070C39A /* Example_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "WCObjCRuntime_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Example_Tests" */;
 			buildPhases = (
-				48ABE6955BA0645CBCB766AF /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				E8ECA239417E3B554092B618 /* [CP] Embed Pods Frameworks */,
-				7997856951F7AB448AE9F36E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = WCObjCRuntime_Tests;
+			name = Example_Tests;
 			productName = WCObjCRuntimeTests;
-			productReference = 6003F5AE195388D20070C39A /* WCObjCRuntime_Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* Example_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -250,12 +284,17 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = daydreamboy;
 				TargetAttributes = {
+					2BA23BB21E73D9FE000DBE48 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QVRKK2EEDF;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "WCObjCRuntime" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -268,8 +307,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* WCObjCRuntime_Example */,
-				6003F5AD195388D20070C39A /* WCObjCRuntime_Tests */,
+				6003F589195388D20070C39A /* Example_iOS */,
+				2BA23BB21E73D9FE000DBE48 /* Example_MacOS */,
+				6003F5AD195388D20070C39A /* Example_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,10 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				2BA23BCD1E73DA32000DBE48 /* Images.xcassets in Resources */,
+				2BA23BCC1E73DA32000DBE48 /* Example-Info.plist in Resources */,
+				2BA23BCB1E73DA32000DBE48 /* InfoPlist.strings in Resources */,
+				2BA23BCA1E73DA32000DBE48 /* Main.storyboard in Resources */,
+				2BA23BC91E73DA32000DBE48 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,37 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCObjCRuntime_Example/Pods-WCObjCRuntime_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		48ABE6955BA0645CBCB766AF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7997856951F7AB448AE9F36E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCObjCRuntime_Tests/Pods-WCObjCRuntime_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example_iOS/Pods-Example_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8CBB60C5053FC8E18F912627 /* [CP] Embed Pods Frameworks */ = {
@@ -354,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCObjCRuntime_Example/Pods-WCObjCRuntime_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example_iOS/Pods-Example_iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		97A2E3C36B3326F320A3E009 /* [CP] Check Pods Manifest.lock */ = {
@@ -372,31 +383,24 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E8ECA239417E3B554092B618 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCObjCRuntime_Tests/Pods-WCObjCRuntime_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2BA23BAF1E73D9FE000DBE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA23BB61E73D9FE000DBE48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* WCRTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* WCRTViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				2BA23BCF1E73DA32000DBE48 /* AppDelegate.m in Sources */,
+				2BA23BCE1E73DA32000DBE48 /* main.m in Sources */,
+				2BA23BD01E73DA32000DBE48 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,16 +417,32 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* WCObjCRuntime_Example */;
+			target = 6003F589195388D20070C39A /* Example_iOS */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+		2BA23BBB1E73DA32000DBE48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
+				2BA23BBC1E73DA32000DBE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA23BBD1E73DA32000DBE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA23BBE1E73DA32000DBE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA23BBF1E73DA32000DBE48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA23BC01E73DA32000DBE48 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -435,17 +455,50 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2BA23BB81E73D9FE000DBE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QVRKK2EEDF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BA23BB91E73D9FE000DBE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QVRKK2EEDF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -521,12 +574,12 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF8361243267FE02575D3D9 /* Pods-WCObjCRuntime_Example.debug.xcconfig */;
+			baseConfigurationReference = 66F18871C66BC6B2B95AC4C6 /* Pods-Example_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WCObjCRuntime/WCObjCRuntime-Prefix.pch";
-				INFOPLIST_FILE = "WCObjCRuntime/WCObjCRuntime-Info.plist";
+				GCC_PREFIX_HEADER = "Example_iOS/Example-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example_iOS/Example-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,12 +589,12 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0979ED1CC3F0B19894E9EFB3 /* Pods-WCObjCRuntime_Example.release.xcconfig */;
+			baseConfigurationReference = A26EB64FAF2CB4AB58EA94C2 /* Pods-Example_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WCObjCRuntime/WCObjCRuntime-Prefix.pch";
-				INFOPLIST_FILE = "WCObjCRuntime/WCObjCRuntime-Info.plist";
+				GCC_PREFIX_HEADER = "Example_iOS/Example-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example_iOS/Example-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,7 +604,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F45E917DF46B453A262D219E /* Pods-WCObjCRuntime_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -568,14 +620,13 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCObjCRuntime_Example.app/WCObjCRuntime_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example_Example.app/Example_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA0684F1D9E7286DCDC2F351 /* Pods-WCObjCRuntime_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -588,7 +639,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCObjCRuntime_Example.app/WCObjCRuntime_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example_Example.app/Example_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -596,7 +647,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "WCObjCRuntime" */ = {
+		2BA23BB71E73D9FE000DBE48 /* Build configuration list for PBXNativeTarget "Example_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA23BB81E73D9FE000DBE48 /* Debug */,
+				2BA23BB91E73D9FE000DBE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -605,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "WCObjCRuntime_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Example_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -614,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "WCObjCRuntime_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Example_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
