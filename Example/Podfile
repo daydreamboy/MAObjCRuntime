@@ -3,3 +3,7 @@
 target 'Example_iOS' do
   pod 'WCObjCRuntime', :path => '../'
 end
+
+target 'Example_MacOS' do
+    pod 'WCObjCRuntime', :path => '../'
+end

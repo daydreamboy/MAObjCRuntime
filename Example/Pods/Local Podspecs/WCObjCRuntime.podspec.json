@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of WCObjCRuntime.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/daydreamboy/WCObjCRuntime",
+  "homepage": "https://github.com/wesley chen/WCObjCRuntime",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "daydreamboy": "wesley4chen@gmail.com"
+    "wesley chen": "wesley chen@gmail.com"
   },
   "source": {
-    "git": "https://github.com/daydreamboy/WCObjCRuntime.git",
+    "git": "https://github.com/wesley chen/WCObjCRuntime.git",
     "tag": "0.1.0"
   },
   "platforms": {

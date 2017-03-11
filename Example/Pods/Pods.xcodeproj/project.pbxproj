@@ -7,150 +7,192 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F3D7F38489572DE145BC54A348AD15 /* WCObjCRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C400F6E83D4DBB7268103AEF71379E /* WCObjCRuntime-dummy.m */; };
-		160714FD60484FCE8ABB16FDD823A9A9 /* WCRTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1EE3D9A9227E11D90E30307527A6B /* WCRTProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		20D996017816A59A5764897B7E3F069C /* WCRTMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2B146288EEBFE57634E9C890B798DE /* WCRTMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		237347781018109C7AEAB72810EDCFE3 /* NSObject+WCObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 506313E8E291C63D8BCC2928C7532474 /* NSObject+WCObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2957B136752553C1EF2616F40288044F /* WCRTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F378B3E9462EDA2377385978852A8E2 /* WCRTProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3C56B8244711CF7DCCFF3683E8FF6D06 /* WCRTIvar.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF55B5BC2700DF26FE85818027C8069 /* WCRTIvar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F1148B1EF0DDF2CC249497D3062FBD6 /* WCRTUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E55E7B8588BE42778F9A40F3F87DE53 /* WCRTUnregisteredClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4146C560FFE034CAB6CE3F2C1D4E897E /* NSObject+WCObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 36277406E43A594100BCBC44CF73D5AD /* NSObject+WCObjCRuntime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		553C183E1A998A9A41ABEB06FF64097B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5FD8ED754041AF07DA8CFD798B6D24F9 /* WCRTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E8ABFD3DDFCC8FBAD9154E4BB628AE64 /* WCRTProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		611308115EB5E50F99299605DA68C8E9 /* WCRTUnregisteredClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A42CC6EB3ED7E1BAC375E47F9EF654A0 /* WCRTUnregisteredClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62F34998FEFE47EEC86485703577C395 /* WCRTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8D77310AE99C3E22BEF5C9ECF4F778 /* WCRTMethod.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7EC6210E42416B14F03445320A95AF29 /* WCRTProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA8F4498A0E6979E2A6EA59BFB7A707 /* WCRTProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA8DDC9669013424CE68ECEF93287D34 /* WCRTIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E3D7DDDD76B7EADE3AFFEFA6EAC2AF /* WCRTIvar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D55965D3D75CF50ECFEA754489BABF3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DCFC79373812DB1C96F2F1D8C80E8E62 /* Pods-Example_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DACCE89183816A31B7A156D761ED6 /* Pods-Example_iOS-dummy.m */; };
+		1FF0CC06665030AD906460A5F4AC239E /* WCRTUnregisteredClass.h in Headers */ = {isa = PBXBuildFile; fileRef = C40C0C0CE9581280A3F961C513C6DC8B /* WCRTUnregisteredClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22CCF5BD96310B88D5E5BE00C8647D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */; };
+		23739E450FF8A9178B620EA1A362773D /* WCRTUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D472BEAA60B19558E4DE49B013A01 /* WCRTUnregisteredClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3B3D279C0208828DC0AEC9F7E01D05E7 /* WCObjCRuntime-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C312FD6B2CA88114D13D5BFC71B4B1 /* WCObjCRuntime-OSX-dummy.m */; };
+		3C10FFBFCBEEBC4005858065F934F7AA /* Pods-Example_MacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1E31A1326EB1C4A0AE2F56288253D /* Pods-Example_MacOS-dummy.m */; };
+		3DEBA69CA062BB8FFAB5F68A7F28301F /* WCRTUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D472BEAA60B19558E4DE49B013A01 /* WCRTUnregisteredClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E7822F272A7BEE55CF390BB135405F7 /* WCRTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E86FF3E6A5296E62430B95146ED95A /* WCRTProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		43AF4D98EDC73CB956C251A166A3805A /* WCRTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9F2C3F886A11951840545F2075F0FF /* WCRTProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		484EACC177719FA27308392A84541CDD /* WCRTMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F7ABFBC3D0759E1E7B13A468622D48 /* WCRTMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48C8A019ABE2A5267E7BFC37F05A979F /* WCObjCRuntime-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD30E96B38350763E20C1C922F2D5 /* WCObjCRuntime-iOS-dummy.m */; };
+		4CF031CC32B14D5200E9BC8476D5CE41 /* WCRTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E86FF3E6A5296E62430B95146ED95A /* WCRTProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51CB62B1315B14A54CE796F38F687FD8 /* WCRTUnregisteredClass.h in Headers */ = {isa = PBXBuildFile; fileRef = C40C0C0CE9581280A3F961C513C6DC8B /* WCRTUnregisteredClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550F82B494F4FBA3E27221455CA06618 /* WCRTIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A7F2FB693DC9C2F7FBC720D0170AC /* WCRTIvar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		570B593B968F0F3319CCADE8B06DA74D /* NSObject+WCObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A302A8A47DD42AC08370526CAFBD8C /* NSObject+WCObjCRuntime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E51C8004586E286880FD6FAB0A9920D /* WCRTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED2F571201D79A64FB238D5AC23B92 /* WCRTMethod.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6032F34E54DC542031F87E25086BF9D1 /* Pods-Example_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8605B59FE188FB5210162ADE74AC6A /* Pods-Example_iOS-dummy.m */; };
+		682CC177DE1298DBCA906B9FE77A848F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
+		6FFCE987E714782DFD8286D514CFDC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */; };
+		7AFF66B40B91EC42EFA14F2B269204DE /* NSObject+WCObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DAD0ED5C97DEB7A4A3559A1B07EEBC /* NSObject+WCObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EF72AC846E1F930F7E46155D82117E5 /* NSObject+WCObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A302A8A47DD42AC08370526CAFBD8C /* NSObject+WCObjCRuntime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		81BAC439230897B70D8DBA64951F84CC /* WCRTIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A7F2FB693DC9C2F7FBC720D0170AC /* WCRTIvar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		94360484C3BAC406DFEA336CF5B4EDBA /* WCRTIvar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D1CFA2B5CDC1AA05A1DDD7435EBDE /* WCRTIvar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1100AD04F2B48BE6982CAD43FA8335D /* WCRTMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F7ABFBC3D0759E1E7B13A468622D48 /* WCRTMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19BAC2DE8264C5A58B7B2B8E8F21C6A /* WCRTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9F2C3F886A11951840545F2075F0FF /* WCRTProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADEC017F0D9820571700D149529F06B2 /* WCRTProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A7DEAF16FB35A0172F155BFE6AD8CE /* WCRTProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40CFCAD0BC717FCC801E7214286E543 /* WCRTIvar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D1CFA2B5CDC1AA05A1DDD7435EBDE /* WCRTIvar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C79F7F8AB1A6E13E52DD067CB0EE2262 /* NSObject+WCObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DAD0ED5C97DEB7A4A3559A1B07EEBC /* NSObject+WCObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC999C2C4823F83F0F5372867ED483F0 /* WCRTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8407E80DF92491C4FD6A198208D5B3 /* WCRTProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D2A5F8A8BB565749D204482FF5A064C8 /* WCRTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8407E80DF92491C4FD6A198208D5B3 /* WCRTProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DC60C020D400479D2D3DE8DD259CA2AD /* WCRTProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A7DEAF16FB35A0172F155BFE6AD8CE /* WCRTProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6F9BF3225464423EFA7608B27C1D73 /* WCRTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED2F571201D79A64FB238D5AC23B92 /* WCRTMethod.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F612506E6CD3901833550C5CFC3BDADD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0075C1F88645E8778C4438E9CD183FC4 /* PBXContainerItemProxy */ = {
+		8149735F0BF121DE9C85FDDC2DE1AB3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 45F9373BB8D546F30FC2715F9F59EE56;
-			remoteInfo = WCObjCRuntime;
+			remoteGlobalIDString = F2189369E30055365D022CDB58D8E0FE;
+			remoteInfo = "WCObjCRuntime-iOS";
+		};
+		EEDF965655845B13F093B683935857AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1E52D5806D773E34611553FC93DCED;
+			remoteInfo = "WCObjCRuntime-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000D5622A8038D46283C9CA9BE0EE934 /* WCObjCRuntime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCObjCRuntime-prefix.pch"; sourceTree = "<group>"; };
-		0F378B3E9462EDA2377385978852A8E2 /* WCRTProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTProtocol.m; sourceTree = "<group>"; };
-		15C400F6E83D4DBB7268103AEF71379E /* WCObjCRuntime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCObjCRuntime-dummy.m"; sourceTree = "<group>"; };
-		1E5DACCE89183816A31B7A156D761ED6 /* Pods-Example_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example_iOS-dummy.m"; sourceTree = "<group>"; };
-		2DE719D3095BE813F65A4278645A4F6F /* Pods-Example_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33E3D7DDDD76B7EADE3AFFEFA6EAC2AF /* WCRTIvar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTIvar.m; sourceTree = "<group>"; };
-		36277406E43A594100BCBC44CF73D5AD /* NSObject+WCObjCRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WCObjCRuntime.m"; sourceTree = "<group>"; };
-		39824DE9F54D0A5D2DD11FEB7F5B65EE /* Pods-Example_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_iOS-frameworks.sh"; sourceTree = "<group>"; };
-		3F9E3765B966229E95BE8032E9491142 /* Pods-Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		4AFC97B330286CDC4FF9C8E95445A0A1 /* Pods-Example_iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_iOS-resources.sh"; sourceTree = "<group>"; };
-		4E55E7B8588BE42778F9A40F3F87DE53 /* WCRTUnregisteredClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTUnregisteredClass.m; sourceTree = "<group>"; };
-		4F2B146288EEBFE57634E9C890B798DE /* WCRTMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTMethod.h; sourceTree = "<group>"; };
-		506313E8E291C63D8BCC2928C7532474 /* NSObject+WCObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WCObjCRuntime.h"; sourceTree = "<group>"; };
-		617EE74C46AF7A10D921F19C559274B3 /* libPods-Example_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71E4E2C85EB9B316707D4D21C21AACF7 /* libWCObjCRuntime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWCObjCRuntime.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D8D77310AE99C3E22BEF5C9ECF4F778 /* WCRTMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTMethod.m; sourceTree = "<group>"; };
-		92B1EE3D9A9227E11D90E30307527A6B /* WCRTProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTProperty.m; sourceTree = "<group>"; };
+		05F7ABFBC3D0759E1E7B13A468622D48 /* WCRTMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTMethod.h; sourceTree = "<group>"; };
+		11ED2F571201D79A64FB238D5AC23B92 /* WCRTMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTMethod.m; sourceTree = "<group>"; };
+		13BC38313AFC85B760024180913D50F1 /* WCObjCRuntime-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WCObjCRuntime-OSX.xcconfig"; sourceTree = "<group>"; };
+		1580B593FF79FE127BFBACCEA4472513 /* WCObjCRuntime-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCObjCRuntime-iOS-prefix.pch"; path = "../WCObjCRuntime-iOS/WCObjCRuntime-iOS-prefix.pch"; sourceTree = "<group>"; };
+		215450C57E18FFA66FEE44064F8E9DC7 /* Pods-Example_MacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example_MacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21E86FF3E6A5296E62430B95146ED95A /* WCRTProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTProtocol.m; sourceTree = "<group>"; };
+		2A5A7F2FB693DC9C2F7FBC720D0170AC /* WCRTIvar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTIvar.m; sourceTree = "<group>"; };
+		2C878F9BA294CBB0EEF5108ACB18DCD7 /* libWCObjCRuntime-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libWCObjCRuntime-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8D295CCD029445079D2A3E7C9F705D /* Pods-Example_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		32370CA2BF5CFF2D73073B8CA4C81E76 /* Pods-Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		39105F957DFBC7BBCC16C50DDF83DB0E /* Pods-Example_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D9F2C3F886A11951840545F2075F0FF /* WCRTProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTProtocol.h; sourceTree = "<group>"; };
+		44BB6687638B8F94789FC67AAB16635A /* Pods-Example_MacOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_MacOS-resources.sh"; sourceTree = "<group>"; };
+		4ED8127B1073B95DB32BF7341E2B73A8 /* libPods-Example_MacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example_MacOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A7DEAF16FB35A0172F155BFE6AD8CE /* WCRTProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTProperty.h; sourceTree = "<group>"; };
+		5AB46CF635BFD4CAF1A1DC272167AC91 /* Pods-Example_MacOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_MacOS-frameworks.sh"; sourceTree = "<group>"; };
+		65A302A8A47DD42AC08370526CAFBD8C /* NSObject+WCObjCRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WCObjCRuntime.m"; sourceTree = "<group>"; };
+		65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6600D81489FA1023F0708DA6AF9B74AE /* Pods-Example_MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8605B59FE188FB5210162ADE74AC6A /* Pods-Example_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example_iOS-dummy.m"; sourceTree = "<group>"; };
+		8A3D472BEAA60B19558E4DE49B013A01 /* WCRTUnregisteredClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTUnregisteredClass.m; sourceTree = "<group>"; };
+		904B2D5CA0ACF1BC92A720F2E2635EFD /* libPods-Example_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A42CC6EB3ED7E1BAC375E47F9EF654A0 /* WCRTUnregisteredClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTUnregisteredClass.h; sourceTree = "<group>"; };
-		B64FC7DBF3C2388AA3A6C17FDBF961A9 /* Pods-Example_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2E8FCA7D685469F75B91D73E21B9390 /* WCObjCRuntime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCObjCRuntime.xcconfig; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CBF55B5BC2700DF26FE85818027C8069 /* WCRTIvar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTIvar.h; sourceTree = "<group>"; };
-		DA252A9D558D5A75ADD49341A44593A0 /* Pods-Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DEA8F4498A0E6979E2A6EA59BFB7A707 /* WCRTProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTProperty.h; sourceTree = "<group>"; };
-		E8ABFD3DDFCC8FBAD9154E4BB628AE64 /* WCRTProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTProtocol.h; sourceTree = "<group>"; };
+		993BA5E9E2CFD0063D43EDAB1F4BDA3B /* WCObjCRuntime-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCObjCRuntime-OSX-prefix.pch"; sourceTree = "<group>"; };
+		A9913A401CC6F1732A3A436C12EC4200 /* Pods-Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		AB8407E80DF92491C4FD6A198208D5B3 /* WCRTProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCRTProperty.m; sourceTree = "<group>"; };
+		B0B1E31A1326EB1C4A0AE2F56288253D /* Pods-Example_MacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example_MacOS-dummy.m"; sourceTree = "<group>"; };
+		B1C312FD6B2CA88114D13D5BFC71B4B1 /* WCObjCRuntime-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCObjCRuntime-OSX-dummy.m"; sourceTree = "<group>"; };
+		C1FA525CBC27015C5FDC0D85A1C4C584 /* Pods-Example_MacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example_MacOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3C7B2E65667004F2248764FEA9C54CE /* Pods-Example_iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_iOS-resources.sh"; sourceTree = "<group>"; };
+		C40C0C0CE9581280A3F961C513C6DC8B /* WCRTUnregisteredClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTUnregisteredClass.h; sourceTree = "<group>"; };
+		CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		CE0D1CFA2B5CDC1AA05A1DDD7435EBDE /* WCRTIvar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCRTIvar.h; sourceTree = "<group>"; };
+		D6D0D822A96FD60D185AA0EEE9940F9B /* Pods-Example_MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_MacOS.release.xcconfig"; sourceTree = "<group>"; };
+		D7053403F2A982C57720F97BC38A0FE5 /* libWCObjCRuntime-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libWCObjCRuntime-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DAD0ED5C97DEB7A4A3559A1B07EEBC /* NSObject+WCObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WCObjCRuntime.h"; sourceTree = "<group>"; };
+		EBEFD30E96B38350763E20C1C922F2D5 /* WCObjCRuntime-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WCObjCRuntime-iOS-dummy.m"; path = "../WCObjCRuntime-iOS/WCObjCRuntime-iOS-dummy.m"; sourceTree = "<group>"; };
+		F6D3D73077C91B7B1DA2004316DB03D0 /* WCObjCRuntime-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "WCObjCRuntime-iOS.xcconfig"; path = "../WCObjCRuntime-iOS/WCObjCRuntime-iOS.xcconfig"; sourceTree = "<group>"; };
+		FE247FBF1293CE1615567030BC032D92 /* Pods-Example_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example_iOS-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1510D9CBE6221040A4205252227B5F71 /* Frameworks */ = {
+		0578A672DB8EC45F5DBB2698CB6291D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D55965D3D75CF50ECFEA754489BABF3F /* Foundation.framework in Frameworks */,
+				682CC177DE1298DBCA906B9FE77A848F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F0212597B26B560FADF409E23FCB693 /* Frameworks */ = {
+		1F44C10C78693FF40F717940CD3FC5BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				553C183E1A998A9A41ABEB06FF64097B /* Foundation.framework in Frameworks */,
+				F612506E6CD3901833550C5CFC3BDADD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE5B5A4805DA3EFEBA06BA47B6B2AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFCE987E714782DFD8286D514CFDC41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B797E7B9C11569B75031549DF4D7CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CCF5BD96310B88D5E5BE00C8647D0E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		077C31303900176E0784C9266955197D /* Pods-Example_iOS */ = {
+		1FD2DD34C91258B4A860740263408373 /* WCObjCRuntime */ = {
 			isa = PBXGroup;
 			children = (
-				2DE719D3095BE813F65A4278645A4F6F /* Pods-Example_iOS-acknowledgements.markdown */,
-				B64FC7DBF3C2388AA3A6C17FDBF961A9 /* Pods-Example_iOS-acknowledgements.plist */,
-				1E5DACCE89183816A31B7A156D761ED6 /* Pods-Example_iOS-dummy.m */,
-				39824DE9F54D0A5D2DD11FEB7F5B65EE /* Pods-Example_iOS-frameworks.sh */,
-				4AFC97B330286CDC4FF9C8E95445A0A1 /* Pods-Example_iOS-resources.sh */,
-				DA252A9D558D5A75ADD49341A44593A0 /* Pods-Example_iOS.debug.xcconfig */,
-				3F9E3765B966229E95BE8032E9491142 /* Pods-Example_iOS.release.xcconfig */,
+				35706891B8A06E58857B55F3834C127B /* Pod */,
+				BF997FEC0B85F34D359AC94CD5DDD0A4 /* Support Files */,
 			);
-			name = "Pods-Example_iOS";
-			path = "Target Support Files/Pods-Example_iOS";
+			name = WCObjCRuntime;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		1F708360662F91C04544EB3746D1ABBB /* Pod */ = {
+		2EDFAB15A7E74F864EB353FCB5A57006 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				5755639BFE8103BB283AEA499BF6653E /* Classes */,
+				CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		3266D254FB59F9380377E2CCC5A20773 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				826BA0DA3552FFEE6D2C5CC9578D492C /* Pods-Example_iOS */,
+				75BE6F7C21B27F096130A39B9088FCCF /* Pods-Example_MacOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35706891B8A06E58857B55F3834C127B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4B7B655D0CD48C00A7104F4CC71BC /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		5755639BFE8103BB283AEA499BF6653E /* Classes */ = {
+		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				506313E8E291C63D8BCC2928C7532474 /* NSObject+WCObjCRuntime.h */,
-				36277406E43A594100BCBC44CF73D5AD /* NSObject+WCObjCRuntime.m */,
-				CBF55B5BC2700DF26FE85818027C8069 /* WCRTIvar.h */,
-				33E3D7DDDD76B7EADE3AFFEFA6EAC2AF /* WCRTIvar.m */,
-				4F2B146288EEBFE57634E9C890B798DE /* WCRTMethod.h */,
-				8D8D77310AE99C3E22BEF5C9ECF4F778 /* WCRTMethod.m */,
-				DEA8F4498A0E6979E2A6EA59BFB7A707 /* WCRTProperty.h */,
-				92B1EE3D9A9227E11D90E30307527A6B /* WCRTProperty.m */,
-				E8ABFD3DDFCC8FBAD9154E4BB628AE64 /* WCRTProtocol.h */,
-				0F378B3E9462EDA2377385978852A8E2 /* WCRTProtocol.m */,
-				A42CC6EB3ED7E1BAC375E47F9EF654A0 /* WCRTUnregisteredClass.h */,
-				4E55E7B8588BE42778F9A40F3F87DE53 /* WCRTUnregisteredClass.m */,
+				95A165433BB896B7C2CAF2425A40BF8D /* iOS */,
+				2EDFAB15A7E74F864EB353FCB5A57006 /* OS X */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		75BE6F7C21B27F096130A39B9088FCCF /* Pods-Example_MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				215450C57E18FFA66FEE44064F8E9DC7 /* Pods-Example_MacOS-acknowledgements.markdown */,
+				C1FA525CBC27015C5FDC0D85A1C4C584 /* Pods-Example_MacOS-acknowledgements.plist */,
+				B0B1E31A1326EB1C4A0AE2F56288253D /* Pods-Example_MacOS-dummy.m */,
+				5AB46CF635BFD4CAF1A1DC272167AC91 /* Pods-Example_MacOS-frameworks.sh */,
+				44BB6687638B8F94789FC67AAB16635A /* Pods-Example_MacOS-resources.sh */,
+				6600D81489FA1023F0708DA6AF9B74AE /* Pods-Example_MacOS.debug.xcconfig */,
+				D6D0D822A96FD60D185AA0EEE9940F9B /* Pods-Example_MacOS.release.xcconfig */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7775866F6583D14F0DA06FDF42307654 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				617EE74C46AF7A10D921F19C559274B3 /* libPods-Example_iOS.a */,
-				71E4E2C85EB9B316707D4D21C21AACF7 /* libWCObjCRuntime.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7870BECD0294A630091954F8656DD0BD /* WCObjCRuntime */ = {
-			isa = PBXGroup;
-			children = (
-				1F708360662F91C04544EB3746D1ABBB /* Pod */,
-				B059A9BA33C75413B440C50E3D9FE85A /* Support Files */,
-			);
-			name = WCObjCRuntime;
-			path = ../..;
+			name = "Pods-Example_MacOS";
+			path = "Target Support Files/Pods-Example_MacOS";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -158,43 +200,83 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F4D3EB2076DF5AE74499980C24716703 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7775866F6583D14F0DA06FDF42307654 /* Products */,
-				981E120302731ED572AE20D7A78210F0 /* Targets Support Files */,
+				3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */,
+				D94FFCC5FC81B2AB0D208B9DB52DDF3B /* Products */,
+				3266D254FB59F9380377E2CCC5A20773 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		981E120302731ED572AE20D7A78210F0 /* Targets Support Files */ = {
+		826BA0DA3552FFEE6D2C5CC9578D492C /* Pods-Example_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				077C31303900176E0784C9266955197D /* Pods-Example_iOS */,
+				39105F957DFBC7BBCC16C50DDF83DB0E /* Pods-Example_iOS-acknowledgements.markdown */,
+				2C8D295CCD029445079D2A3E7C9F705D /* Pods-Example_iOS-acknowledgements.plist */,
+				7E8605B59FE188FB5210162ADE74AC6A /* Pods-Example_iOS-dummy.m */,
+				FE247FBF1293CE1615567030BC032D92 /* Pods-Example_iOS-frameworks.sh */,
+				C3C7B2E65667004F2248764FEA9C54CE /* Pods-Example_iOS-resources.sh */,
+				32370CA2BF5CFF2D73073B8CA4C81E76 /* Pods-Example_iOS.debug.xcconfig */,
+				A9913A401CC6F1732A3A436C12EC4200 /* Pods-Example_iOS.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Example_iOS";
+			path = "Target Support Files/Pods-Example_iOS";
 			sourceTree = "<group>";
 		};
-		B059A9BA33C75413B440C50E3D9FE85A /* Support Files */ = {
+		95A165433BB896B7C2CAF2425A40BF8D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C2E8FCA7D685469F75B91D73E21B9390 /* WCObjCRuntime.xcconfig */,
-				15C400F6E83D4DBB7268103AEF71379E /* WCObjCRuntime-dummy.m */,
-				000D5622A8038D46283C9CA9BE0EE934 /* WCObjCRuntime-prefix.pch */,
+				65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF997FEC0B85F34D359AC94CD5DDD0A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D3D73077C91B7B1DA2004316DB03D0 /* WCObjCRuntime-iOS.xcconfig */,
+				EBEFD30E96B38350763E20C1C922F2D5 /* WCObjCRuntime-iOS-dummy.m */,
+				1580B593FF79FE127BFBACCEA4472513 /* WCObjCRuntime-iOS-prefix.pch */,
+				13BC38313AFC85B760024180913D50F1 /* WCObjCRuntime-OSX.xcconfig */,
+				B1C312FD6B2CA88114D13D5BFC71B4B1 /* WCObjCRuntime-OSX-dummy.m */,
+				993BA5E9E2CFD0063D43EDAB1F4BDA3B /* WCObjCRuntime-OSX-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WCObjCRuntime";
+			path = "Example/Pods/Target Support Files/WCObjCRuntime-OSX";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D94FFCC5FC81B2AB0D208B9DB52DDF3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				904B2D5CA0ACF1BC92A720F2E2635EFD /* libPods-Example_iOS.a */,
+				4ED8127B1073B95DB32BF7341E2B73A8 /* libPods-Example_MacOS.a */,
+				D7053403F2A982C57720F97BC38A0FE5 /* libWCObjCRuntime-iOS.a */,
+				2C878F9BA294CBB0EEF5108ACB18DCD7 /* libWCObjCRuntime-OSX.a */,
 			);
-			name = Frameworks;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA4B7B655D0CD48C00A7104F4CC71BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5DAD0ED5C97DEB7A4A3559A1B07EEBC /* NSObject+WCObjCRuntime.h */,
+				65A302A8A47DD42AC08370526CAFBD8C /* NSObject+WCObjCRuntime.m */,
+				CE0D1CFA2B5CDC1AA05A1DDD7435EBDE /* WCRTIvar.h */,
+				2A5A7F2FB693DC9C2F7FBC720D0170AC /* WCRTIvar.m */,
+				05F7ABFBC3D0759E1E7B13A468622D48 /* WCRTMethod.h */,
+				11ED2F571201D79A64FB238D5AC23B92 /* WCRTMethod.m */,
+				58A7DEAF16FB35A0172F155BFE6AD8CE /* WCRTProperty.h */,
+				AB8407E80DF92491C4FD6A198208D5B3 /* WCRTProperty.m */,
+				3D9F2C3F886A11951840545F2075F0FF /* WCRTProtocol.h */,
+				21E86FF3E6A5296E62430B95146ED95A /* WCRTProtocol.m */,
+				C40C0C0CE9581280A3F961C513C6DC8B /* WCRTUnregisteredClass.h */,
+				8A3D472BEAA60B19558E4DE49B013A01 /* WCRTUnregisteredClass.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F4D3EB2076DF5AE74499980C24716703 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7870BECD0294A630091954F8656DD0BD /* WCObjCRuntime */,
+				1FD2DD34C91258B4A860740263408373 /* WCObjCRuntime */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -202,54 +284,101 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30FB48B38FF1F3E192F204B43936FC28 /* Headers */ = {
+		CBA69BC3B91D2D2C235D40577F8B50BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237347781018109C7AEAB72810EDCFE3 /* NSObject+WCObjCRuntime.h in Headers */,
-				3C56B8244711CF7DCCFF3683E8FF6D06 /* WCRTIvar.h in Headers */,
-				20D996017816A59A5764897B7E3F069C /* WCRTMethod.h in Headers */,
-				7EC6210E42416B14F03445320A95AF29 /* WCRTProperty.h in Headers */,
-				5FD8ED754041AF07DA8CFD798B6D24F9 /* WCRTProtocol.h in Headers */,
-				611308115EB5E50F99299605DA68C8E9 /* WCRTUnregisteredClass.h in Headers */,
+				7AFF66B40B91EC42EFA14F2B269204DE /* NSObject+WCObjCRuntime.h in Headers */,
+				C40CFCAD0BC717FCC801E7214286E543 /* WCRTIvar.h in Headers */,
+				484EACC177719FA27308392A84541CDD /* WCRTMethod.h in Headers */,
+				ADEC017F0D9820571700D149529F06B2 /* WCRTProperty.h in Headers */,
+				A19BAC2DE8264C5A58B7B2B8E8F21C6A /* WCRTProtocol.h in Headers */,
+				51CB62B1315B14A54CE796F38F687FD8 /* WCRTUnregisteredClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0805A89300F9F05AD86CE3FCA354161 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79F7F8AB1A6E13E52DD067CB0EE2262 /* NSObject+WCObjCRuntime.h in Headers */,
+				94360484C3BAC406DFEA336CF5B4EDBA /* WCRTIvar.h in Headers */,
+				A1100AD04F2B48BE6982CAD43FA8335D /* WCRTMethod.h in Headers */,
+				DC60C020D400479D2D3DE8DD259CA2AD /* WCRTProperty.h in Headers */,
+				43AF4D98EDC73CB956C251A166A3805A /* WCRTProtocol.h in Headers */,
+				1FF0CC06665030AD906460A5F4AC239E /* WCRTUnregisteredClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		234F45F068D5DD7121173B49D4A026C0 /* Pods-Example_iOS */ = {
+		0C38B18106DE00ECE37950E514C9E02E /* Pods-Example_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A16606AC37AC84BDC5286426F70C588 /* Build configuration list for PBXNativeTarget "Pods-Example_iOS" */;
+			buildConfigurationList = DE57391724DC2382A0015CDE29211FBB /* Build configuration list for PBXNativeTarget "Pods-Example_iOS" */;
 			buildPhases = (
-				F41554B6B834F265BEF854C4DA7C5D97 /* Sources */,
-				6F0212597B26B560FADF409E23FCB693 /* Frameworks */,
+				6CEC10CAF71A199C91851199A5DBB470 /* Sources */,
+				F1B797E7B9C11569B75031549DF4D7CD /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51C697FC4F3FD5F13AE8676FD4DE2C67 /* PBXTargetDependency */,
+				C645327548F283450810BC2C7D19790C /* PBXTargetDependency */,
 			);
 			name = "Pods-Example_iOS";
 			productName = "Pods-Example_iOS";
-			productReference = 617EE74C46AF7A10D921F19C559274B3 /* libPods-Example_iOS.a */;
+			productReference = 904B2D5CA0ACF1BC92A720F2E2635EFD /* libPods-Example_iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		45F9373BB8D546F30FC2715F9F59EE56 /* WCObjCRuntime */ = {
+		8743A6DAE395561997048DACEE5A4300 /* Pods-Example_MacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06D2F0E876572BDD2F4C1D827EC45DC7 /* Build configuration list for PBXNativeTarget "WCObjCRuntime" */;
+			buildConfigurationList = 8595C07D983D6F210F9497BA305E5DD7 /* Build configuration list for PBXNativeTarget "Pods-Example_MacOS" */;
 			buildPhases = (
-				B65CBE4DDE5138055A0C4274EE130718 /* Sources */,
-				1510D9CBE6221040A4205252227B5F71 /* Frameworks */,
-				30FB48B38FF1F3E192F204B43936FC28 /* Headers */,
+				1B05404085B3DEA37524A5F289A46953 /* Sources */,
+				0578A672DB8EC45F5DBB2698CB6291D1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D15D5A2AD750BC5307592E65A118DD /* PBXTargetDependency */,
+			);
+			name = "Pods-Example_MacOS";
+			productName = "Pods-Example_MacOS";
+			productReference = 4ED8127B1073B95DB32BF7341E2B73A8 /* libPods-Example_MacOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC1E52D5806D773E34611553FC93DCED /* WCObjCRuntime-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64222F5AC83ED6AB47912C420DEC61FB /* Build configuration list for PBXNativeTarget "WCObjCRuntime-OSX" */;
+			buildPhases = (
+				8F0119938B1CFD0CC87ECF608D33823A /* Sources */,
+				1F44C10C78693FF40F717940CD3FC5BB /* Frameworks */,
+				F0805A89300F9F05AD86CE3FCA354161 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WCObjCRuntime;
-			productName = WCObjCRuntime;
-			productReference = 71E4E2C85EB9B316707D4D21C21AACF7 /* libWCObjCRuntime.a */;
+			name = "WCObjCRuntime-OSX";
+			productName = "WCObjCRuntime-OSX";
+			productReference = 2C878F9BA294CBB0EEF5108ACB18DCD7 /* libWCObjCRuntime-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2189369E30055365D022CDB58D8E0FE /* WCObjCRuntime-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D82525F7DD2C4977B18CD42E764A70D /* Build configuration list for PBXNativeTarget "WCObjCRuntime-iOS" */;
+			buildPhases = (
+				A755C13D88C5A823602E23CF6C01F8F4 /* Sources */,
+				DAE5B5A4805DA3EFEBA06BA47B6B2AA2 /* Frameworks */,
+				CBA69BC3B91D2D2C235D40577F8B50BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCObjCRuntime-iOS";
+			productName = "WCObjCRuntime-iOS";
+			productReference = D7053403F2A982C57720F97BC38A0FE5 /* libWCObjCRuntime-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -269,161 +398,180 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7775866F6583D14F0DA06FDF42307654 /* Products */;
+			productRefGroup = D94FFCC5FC81B2AB0D208B9DB52DDF3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				234F45F068D5DD7121173B49D4A026C0 /* Pods-Example_iOS */,
-				45F9373BB8D546F30FC2715F9F59EE56 /* WCObjCRuntime */,
+				0C38B18106DE00ECE37950E514C9E02E /* Pods-Example_iOS */,
+				8743A6DAE395561997048DACEE5A4300 /* Pods-Example_MacOS */,
+				F2189369E30055365D022CDB58D8E0FE /* WCObjCRuntime-iOS */,
+				DC1E52D5806D773E34611553FC93DCED /* WCObjCRuntime-OSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B65CBE4DDE5138055A0C4274EE130718 /* Sources */ = {
+		1B05404085B3DEA37524A5F289A46953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4146C560FFE034CAB6CE3F2C1D4E897E /* NSObject+WCObjCRuntime.m in Sources */,
-				02F3D7F38489572DE145BC54A348AD15 /* WCObjCRuntime-dummy.m in Sources */,
-				BA8DDC9669013424CE68ECEF93287D34 /* WCRTIvar.m in Sources */,
-				62F34998FEFE47EEC86485703577C395 /* WCRTMethod.m in Sources */,
-				160714FD60484FCE8ABB16FDD823A9A9 /* WCRTProperty.m in Sources */,
-				2957B136752553C1EF2616F40288044F /* WCRTProtocol.m in Sources */,
-				3F1148B1EF0DDF2CC249497D3062FBD6 /* WCRTUnregisteredClass.m in Sources */,
+				3C10FFBFCBEEBC4005858065F934F7AA /* Pods-Example_MacOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F41554B6B834F265BEF854C4DA7C5D97 /* Sources */ = {
+		6CEC10CAF71A199C91851199A5DBB470 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCFC79373812DB1C96F2F1D8C80E8E62 /* Pods-Example_iOS-dummy.m in Sources */,
+				6032F34E54DC542031F87E25086BF9D1 /* Pods-Example_iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0119938B1CFD0CC87ECF608D33823A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570B593B968F0F3319CCADE8B06DA74D /* NSObject+WCObjCRuntime.m in Sources */,
+				3B3D279C0208828DC0AEC9F7E01D05E7 /* WCObjCRuntime-OSX-dummy.m in Sources */,
+				81BAC439230897B70D8DBA64951F84CC /* WCRTIvar.m in Sources */,
+				EE6F9BF3225464423EFA7608B27C1D73 /* WCRTMethod.m in Sources */,
+				D2A5F8A8BB565749D204482FF5A064C8 /* WCRTProperty.m in Sources */,
+				3E7822F272A7BEE55CF390BB135405F7 /* WCRTProtocol.m in Sources */,
+				23739E450FF8A9178B620EA1A362773D /* WCRTUnregisteredClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A755C13D88C5A823602E23CF6C01F8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF72AC846E1F930F7E46155D82117E5 /* NSObject+WCObjCRuntime.m in Sources */,
+				48C8A019ABE2A5267E7BFC37F05A979F /* WCObjCRuntime-iOS-dummy.m in Sources */,
+				550F82B494F4FBA3E27221455CA06618 /* WCRTIvar.m in Sources */,
+				5E51C8004586E286880FD6FAB0A9920D /* WCRTMethod.m in Sources */,
+				CC999C2C4823F83F0F5372867ED483F0 /* WCRTProperty.m in Sources */,
+				4CF031CC32B14D5200E9BC8476D5CE41 /* WCRTProtocol.m in Sources */,
+				3DEBA69CA062BB8FFAB5F68A7F28301F /* WCRTUnregisteredClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		51C697FC4F3FD5F13AE8676FD4DE2C67 /* PBXTargetDependency */ = {
+		07D15D5A2AD750BC5307592E65A118DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WCObjCRuntime;
-			target = 45F9373BB8D546F30FC2715F9F59EE56 /* WCObjCRuntime */;
-			targetProxy = 0075C1F88645E8778C4438E9CD183FC4 /* PBXContainerItemProxy */;
+			name = "WCObjCRuntime-OSX";
+			target = DC1E52D5806D773E34611553FC93DCED /* WCObjCRuntime-OSX */;
+			targetProxy = EEDF965655845B13F093B683935857AC /* PBXContainerItemProxy */;
+		};
+		C645327548F283450810BC2C7D19790C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WCObjCRuntime-iOS";
+			target = F2189369E30055365D022CDB58D8E0FE /* WCObjCRuntime-iOS */;
+			targetProxy = 8149735F0BF121DE9C85FDDC2DE1AB3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		059EF1E8CD4A5A9CCE3737381AB0BC01 /* Release */ = {
+		5905C2C0ED08FB0D8DECF9913A964E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2E8FCA7D685469F75B91D73E21B9390 /* WCObjCRuntime.xcconfig */;
+			baseConfigurationReference = 6600D81489FA1023F0708DA6AF9B74AE /* Pods-Example_MacOS.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		71620D934839C1A9A86C2D3D11417C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BC38313AFC85B760024180913D50F1 /* WCObjCRuntime-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WCObjCRuntime/WCObjCRuntime-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_PREFIX_HEADER = "Target Support Files/WCObjCRuntime-OSX/WCObjCRuntime-OSX-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		4A6763978B7F7D76F4F760C5A170C165 /* Release */ = {
+		77714DE6067EEA4BD340678487BBEF65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F9E3765B966229E95BE8032E9491142 /* Pods-Example_iOS.release.xcconfig */;
+			baseConfigurationReference = D6D0D822A96FD60D185AA0EEE9940F9B /* Pods-Example_MacOS.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		8077AA2F72FB47AE35DA9DD98FB59A4B /* Debug */ = {
+		9AA2C0853E1DA29446A6BD759D78A32F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2E8FCA7D685469F75B91D73E21B9390 /* WCObjCRuntime.xcconfig */;
+			baseConfigurationReference = 13BC38313AFC85B760024180913D50F1 /* WCObjCRuntime-OSX.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WCObjCRuntime/WCObjCRuntime-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_PREFIX_HEADER = "Target Support Files/WCObjCRuntime-OSX/WCObjCRuntime-OSX-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		A27048865BD815FD729E9164D215E47E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -460,6 +608,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -467,9 +616,73 @@
 			};
 			name = Debug;
 		};
-		D5803EA2786D757EC5F4AA46A02ECFB9 /* Debug */ = {
+		A4FD78CEBDC7BFC4E1355F8C3DCB2C2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA252A9D558D5A75ADD49341A44593A0 /* Pods-Example_iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B08D59C108EB82E74C33E5DB1FDDBB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9913A401CC6F1732A3A436C12EC4200 /* Pods-Example_iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D71133F9F5654D9865ED450C85D4E387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32370CA2BF5CFF2D73073B8CA4C81E76 /* Pods-Example_iOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -490,32 +703,96 @@
 			};
 			name = Debug;
 		};
+		EB5FA22FA15FB2222F027C602023678C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D3D73077C91B7B1DA2004316DB03D0 /* WCObjCRuntime-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WCObjCRuntime-iOS/WCObjCRuntime-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAE02788C081E1BB996AAD72244FB14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D3D73077C91B7B1DA2004316DB03D0 /* WCObjCRuntime-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WCObjCRuntime-iOS/WCObjCRuntime-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06D2F0E876572BDD2F4C1D827EC45DC7 /* Build configuration list for PBXNativeTarget "WCObjCRuntime" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8077AA2F72FB47AE35DA9DD98FB59A4B /* Debug */,
-				059EF1E8CD4A5A9CCE3737381AB0BC01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				A27048865BD815FD729E9164D215E47E /* Debug */,
+				A4FD78CEBDC7BFC4E1355F8C3DCB2C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A16606AC37AC84BDC5286426F70C588 /* Build configuration list for PBXNativeTarget "Pods-Example_iOS" */ = {
+		64222F5AC83ED6AB47912C420DEC61FB /* Build configuration list for PBXNativeTarget "WCObjCRuntime-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5803EA2786D757EC5F4AA46A02ECFB9 /* Debug */,
-				4A6763978B7F7D76F4F760C5A170C165 /* Release */,
+				9AA2C0853E1DA29446A6BD759D78A32F /* Debug */,
+				71620D934839C1A9A86C2D3D11417C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8595C07D983D6F210F9497BA305E5DD7 /* Build configuration list for PBXNativeTarget "Pods-Example_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5905C2C0ED08FB0D8DECF9913A964E04 /* Debug */,
+				77714DE6067EEA4BD340678487BBEF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D82525F7DD2C4977B18CD42E764A70D /* Build configuration list for PBXNativeTarget "WCObjCRuntime-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5FA22FA15FB2222F027C602023678C /* Debug */,
+				FAE02788C081E1BB996AAD72244FB14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE57391724DC2382A0015CDE29211FBB /* Build configuration list for PBXNativeTarget "Pods-Example_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71133F9F5654D9865ED450C85D4E387 /* Debug */,
+				B08D59C108EB82E74C33E5DB1FDDBB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
